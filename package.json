@@ -8,7 +8,6 @@
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
     "watch": "nodemon index.js",
-    "test-watch": "jest --watchAll",
     "test": "jest"
   },
   "jest": {
