@@ -1,6 +1,6 @@
 'use strict';
 
-const { users } = require('../models')
+const { users } = require('../../models/index')
 
 module.exports = async (req, res, next) => {
 
@@ -12,6 +12,7 @@ module.exports = async (req, res, next) => {
     const validUser = await users.authenticateToken(token);
     req.user = validUser;
     req.token = validUser.token;
+    console.log('*** bearer mw req.user',req.user)
     next();
 
   } catch (e) {
@@ -19,6 +20,6 @@ module.exports = async (req, res, next) => {
   }
 
   function _authError() {
-    next('Invalid Login');
+    next('Bearer Invalid Login');
   }
 }
