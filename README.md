@@ -6,6 +6,9 @@
 
 ### 🏠 [Homepage](https://github.com/antoni909/auth-api)
 
+### ✨ [Heroku Production Deployment](https://auth-api.herokuapp.com/)
+
+
 ## Install
 
 ```sh

@@ -8,6 +8,10 @@ const basicAuth = require('./middleware/basic.js')
 const bearerAuth = require('./middleware/bearer.js')
 const permissions = require('./middleware/acl.js')
 
+authRoute.get('/', async(req,res,next) =>{
+  let welcomeMessage = 'Hello and welcome to auth-api!'
+});
+
 authRoute.post('/signup', async (req, res, next) => {
   try {
     let userRecord = await users.create(req.body);
