@@ -1,19 +1,44 @@
-# user
+# Welcome to auth-api 👋
+[![Version](https://img.shields.io/npm/v/auth-api.svg)](https://www.npmjs.com/package/auth-api)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-{
-  "user": {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cGVyX3VzZXIiLCJpYXQiOjE2MzQ5MTQzMzR9.mZxq2mvb9h27MbljhkT554x9Ui1O6pl6OzJqDYGBEKg",
-    "capabilities": [
-      "read",
-      "create",
-      "update",
-      "delete"
-    ],
-    "id": 6,
-    "username": "super_user",
-    "password": "$2b$10$mEL9dglX8OUWBiBoiUHSL.ISQxXOqr3cbSgW7Fqpp8z85fr6tiScm",
-    "role": "admin",
-},
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1cGVyX3VzZXIiLCJpYXQiOjE2MzQ5MTQzMzR9.mZxq2mvb9h27MbljhkT554x9Ui1O6pl6OzJqDYGBEKg"
-}
+> Implement Role Based Access Control (RBAC) using an Access Control List (ACL), allowing to not only restrict access to routes for valid users, but also based on the individual permissions we give each user.
 
+### 🏠 [Homepage](https://github.com/antoni909/auth-api)
+
+### ✨ [Heroku Production Deployment](https://auth-api.herokuapp.com/)
+
+
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm run start
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Author
+
+👤 **Lorenzo Ortega**
+
+* Website: https://github.com/antoni909
+* Github: [@antoni909](https://github.com/antoni909)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/lorenzo-ortega-antoni\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/lorenzo-ortega-antoni\/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
