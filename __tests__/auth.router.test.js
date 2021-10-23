@@ -2,7 +2,7 @@
 
 // const authRoutes = require('src/auth/router.js');
 
-describe('tests login and register endpoints', ()=>{
+xdescribe('tests login and register endpoints', ()=>{
 
   it('POST to /signup to create a new user',()=>{
   });

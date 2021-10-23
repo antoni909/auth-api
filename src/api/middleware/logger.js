@@ -1,13 +1,8 @@
 'use strict';
 
 const logger = (req, res, next) => {
-  try{
-    console.log('REQUEST:', req.method, req.path);
-  }catch(e){
-    console.error(e);
-  }finally{
-    next();
-  }
+  console.log('from logger mw','req.method: ',req.method,'req.header: ', req.headers);
+  next();
 };
 
 module.exports = logger;
